@@ -27,3 +27,13 @@ Clone or download this repository:
 ```bash
 git clone https://github.com/YourUsername/OmicPathNet.git
 cd OmicPathNet
+## Install the required packages in R:
+# Basic CRAN/Bioconductor:
+install.packages(c("shiny", "shinydashboard", "DT", "ggplot2", "UpSetR", "openxlsx",
+                   "purrr", "circlize", "stringr", "visNetwork", "igraph", "webshot2",
+                   "poweRlaw", "rmarkdown", "htmltools", "WGCNA", "Seurat", "DESeq2",
+                   "TCGAbiolinks", "SummarizedExperiment", "clusterProfiler", "org.Hs.eg.db",
+                   "STRINGdb"))
+
+
+
